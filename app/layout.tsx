@@ -9,10 +9,13 @@ import type { Metadata, Viewport } from "next";
 export const metadata: Metadata = {
   title: "something",
   description: "Made by a human on earth!",
+  creator: "@snelusha",
 };
 
 export const viewport: Viewport = {
   colorScheme: "only light",
+  width: "device-width",
+  maximumScale: 1,
 };
 
 export default function RootLayout({
