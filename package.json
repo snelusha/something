@@ -5,8 +5,7 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "shadcn:add": "nlx shadcn@latest add"
+    "lint": "next lint"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",
@@ -19,7 +18,6 @@
     "tailwind-merge": "^3.2.0"
   },
   "devDependencies": {
-    "@antfu/ni": "^24.3.0",
     "@eslint/eslintrc": "^3.3.1",
     "@tailwindcss/postcss": "^4.1.4",
     "@types/node": "^22.14.1",
