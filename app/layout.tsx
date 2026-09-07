@@ -2,7 +2,7 @@ import "~/styles/globals.css";
 
 import { geistMono, geistSans } from "~/styles/fonts";
 
-import { cn } from "~/styles/utils";
+import { cn } from "cn";
 
 import type { Metadata, Viewport } from "next";
 
@@ -25,9 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={cn(geistSans.variable, geistMono.variable)}>
-        {children}
-      </body>
+      <body className={cn(geistSans.variable, geistMono.variable)}>{children}</body>
     </html>
   );
 }
